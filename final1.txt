@@ -1,0 +1,20 @@
+The Flow(Steps):
+
+
+
+
+
+
+===================================================
+Main Structures:
+1. Shared Memory :It provides a region of memory that multiple processes or threads can access on it(allows for different parts of a program to read from and write to the same memory location).
+
+2. Semaphores:
+They are used to control access to shared resources to prevent conflicts between multiple processes or threads. I used two functions: acquire_semaphore and release_semaphore. The acquire_semaphore function decreases the value of a semaphore by 1, for acquiring it, while the release_semaphore function increases the value by 1, fot releasing it. 
+
+
+3. Signals:
+It is an asynchronous notification sent to a process or to a specific thread within the same process in order to notify it of an event that occurred.  When a signal is sent to a process, the operating system interrupts the normal flow of execution and transfers control to a signal handler, which is a function responsible for handling the signal(which can perform custom actions based on the received signal).
+
+
+
